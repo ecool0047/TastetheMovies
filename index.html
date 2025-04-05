@@ -1,12 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Taste the Movies</title>
-  <meta http-equiv="Content-Type" content ="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link href="css/main.css" rel= "stylesheet" type="text/css" />
-  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/script.js" defer></script>
 </head>
   
 <body>
@@ -17,12 +18,69 @@
   <div id = searchbar>
   </div>
   
-  <div id= right>
+  <div class="main">
+    <div class="column">
+      <div class="column-header">
+        <h2>Movies</h2>
+        <select>
+          <option disabled >Filter</option>
+          <option>Action</option>
+          <option>Drama</option>
+          <option>Romance</option>
+          <option>Comedy</option>
+          <option>Thiller</option>
+        </select>
+      </div>
+      <div class="content-scroll">
+        <div class="item">
+          <img src="images/placeholder.png" alt="Movie 1">
+          <p>Movie 1</p>
+        </div>
+        <div class="item">
+          <img src="images/placeholder.png" alt="Movie 2">
+          <p>Movie 2</p>
+        </div>
+        <div class="item">
+          <img src="images/placeholder.png" alt="Movie 3">
+          <p>Movie 3</p>
+        </div>
+        <div class="item">
+          <img src="images/placeholder.png" alt="Movie 4">
+          <p>Movie 4</p>
+        </div>
+      </div>
+    </div>
 
-  </div>
-  
-  <div id = left> 
-  
+    <div class="column">
+      <div class="column-header">
+        <h2>General Recipes</h2>
+        <select>
+          <option disabled>Filter</option>
+          <option>Snack</option>
+          <option>Appetizer</option>
+          <option>Main Course</option>
+          <option>Dessert</option>
+        </select>
+      </div>
+      <div class="content-scroll">
+        <div class="item">
+          <img src="images/placeholder.png" alt="Food 1">
+          <p>Recipe 1</p>
+        </div>
+        <div class="item">
+          <img src="images/placeholder.png" alt="Food 2">
+          <p>Recipe 2</p>
+        </div>
+        <div class="item">
+          <img src="images/placeholder.png" alt="Food 3">
+          <p>Recipe 3</p>
+        </div>
+        <div class="item">
+          <img src="images/placeholder.png" alt="Food 4">
+          <p>Recipe 4</p>
+        </div>
+      </div>
+    </div>
   </div>
   
   <div id = footer>
