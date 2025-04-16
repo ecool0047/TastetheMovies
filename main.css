@@ -1,21 +1,26 @@
-head{
-  
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
 }
-body{
-  
+
+.column {
+  flex: 1;
+  background-color: #f8f9fa; 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-#header{
   
+.content-scroll {
+  max-height: 400px;
+  overflow-y: auto;
 }
-#searchbar{
-  
-}
-#right{
-  
-}
-#left{
-  
-}
-#footer{
-  
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
