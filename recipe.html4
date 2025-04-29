@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panda Bao Buns | Taste The Movies</title>
+</head>
+<body>
+
+  <header>
+    <h1>Taste The Movies</h1>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <img src="images/placeholder.png" alt="Panda Bao Buns from Turning Red" />
+      </div>
+      <div>
+        <h2>Steamed Pork or Veggie Buns</h2>
+        <p><strong>Description:</strong></p>
+        <p>Inspired by Mei's mom's cooking and Pixar’s short *Bao*. Soft, steamed buns filled with either pork or mushrooms for a savory treat.</p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h3>Ingredients</h3>
+        <ul>
+          <li><strong>For dough:</strong> 2 cups flour</li>
+          <li>1 tbsp sugar</li>
+          <li>1 tsp yeast</li>
+          <li>¾ cup warm water</li>
+          <li><strong>For filling:</strong> ground pork or mushrooms</li>
+          <li>1 garlic clove, minced</li>
+          <li>2 tbsp soy sauce</li>
+          <li>1 tsp sesame oil</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Mix dough ingredients and let the dough rise for 1 hour.</li>
+          <li>Prepare filling by cooking pork or mushrooms with garlic, soy sauce, and sesame oil.</li>
+          <li>Roll dough into small balls, flatten each ball, add filling, and pinch to close.</li>
+          <li>Steam the buns in a bamboo steamer for 15–20 minutes until fluffy.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
 
