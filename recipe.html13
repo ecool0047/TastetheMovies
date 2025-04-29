@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocolate Cake | Taste The Movies</title>
+</head>
+<body>
+
+  <header>
+    <h1>Taste The Movies</h1>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <img src="images/placeholder.png" alt="Chocolate Cake from the movie Matilda" />
+      </div>
+      <div>
+        <h2>Decadent Fudge Chocolate Cake</h2>
+        <p><strong>Description:</strong></p>
+        <p>Yes, it’s that one. Bruce's masterpiece, a rich and fudgy chocolate cake made famous in the movie <em>Matilda</em>.</p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>1¾ cups flour</li>
+          <li>2 cups sugar</li>
+          <li>¾ cup cocoa powder</li>
+          <li>1½ tsp baking powder</li>
+          <li>1½ tsp baking soda</li>
+          <li>2 eggs</li>
+          <li>1 cup milk</li>
+          <li>½ cup vegetable oil</li>
+          <li>2 tsp vanilla extract</li>
+          <li>1 cup hot coffee</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Preheat the oven to 350°F (175°C) and grease two round cake pans.</li>
+          <li>Mix all dry ingredients (flour, sugar, cocoa powder, baking powder, and baking soda) in a bowl.</li>
+          <li>Add eggs, milk, oil, and vanilla extract. Stir until smooth.</li>
+          <li>Slowly stir in hot coffee last. The batter will be thin.</li>
+          <li>Pour the batter into the prepared pans and bake for 30–35 minutes, or until a toothpick inserted comes out clean.</li>
+          <li>Let the cakes cool before frosting with chocolate ganache or buttercream.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
 
