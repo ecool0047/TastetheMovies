@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hazelnut Soup | Taste The Movies</title>
+</head>
+<body>
+
+  <header>
+    <h1>Taste The Movies</h1>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <img src="images/placeholder.png" alt="Hazelnut Soup from the movie Tangled" />
+      </div>
+      <div>
+        <h2>Hazelnut Soup</h2>
+        <p><strong>Description:</strong></p>
+        <p>A creamy and hearty vegetable soup with ground hazelnuts, based on medieval European peasant food, as seen in the movie <em>Tangled</em>.</p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>2 carrots, chopped</li>
+          <li>1 small onion, chopped</li>
+          <li>1 potato, peeled and cubed</li>
+          <li>½ cup ground hazelnuts</li>
+          <li>3 cups vegetable broth</li>
+          <li>Cream or milk (to taste)</li>
+          <li>Salt</li>
+          <li>Pepper</li>
+          <li>Thyme</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Sauté onions and carrots in olive oil until softened.</li>
+          <li>Add potato and vegetable broth. Simmer until potatoes are soft.</li>
+          <li>Stir in ground hazelnuts and simmer for 10 more minutes.</li>
+          <li>Blend the soup until smooth. Add cream or milk to taste.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
 
