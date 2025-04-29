@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ikura Donburi | Taste The Movies</title>
+</head>
+<body>
+
+  <header>
+    <h1>Taste The Movies</h1>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <img src="images/placeholder.png" alt="Salmon Roe Rice Bowl from Ponyo" />
+      </div>
+      <div>
+        <h2>Salmon Roe Rice Bowl with Egg and Green Onion</h2>
+        <p><strong>Description:</strong></p>
+        <p>This comforting and simple dish, inspired by the movie *Ponyo*, combines the delicate flavors of salmon roe, scrambled egg, and fresh green onions atop warm rice.</p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>Cooked white rice</li>
+          <li>1 egg, lightly scrambled</li>
+          <li>2 tbsp salmon roe (ikura)</li>
+          <li>Green onion</li>
+          <li>Soy sauce</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Place hot rice in a bowl.</li>
+          <li>Top with scrambled egg, salmon roe, and green onions.</li>
+          <li>Drizzle with soy sauce to taste.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
 
