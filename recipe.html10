@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Recipe | Taste The Movies</title>
+  <title>Cuban Sandwich | Taste The Movies</title>
 </head>
 <body>
 
@@ -14,13 +14,12 @@
   <main>
     <section>
       <div>
-        <img src="images/placeholder.png" alt="Food from movie" />
+        <img src="images/placeholder.png" alt="Cuban Sandwich from the movie Chef" />
       </div>
       <div>
-        <h2>Recipe Name</h2>
+        <h2>Cuban Sandwich</h2>
         <p><strong>Description:</strong></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Curabitur eu nunc non urna malesuada consequat.</p>
+        <p>A delicious and iconic Miami street food made famous in the movie <em>Chef</em>, with layers of savory roasted pork, ham, Swiss cheese, and pickles, all grilled to golden perfection.</p>
       </div>
     </section>
 
@@ -28,24 +27,24 @@
       <div>
         <h3>Ingredients</h3>
         <ul>
-          <li>1 cup lorem ipsum</li>
-          <li>2 tbsp dolor sit amet</li>
-          <li>3 cloves of garlic</li>
-          <li>1 tsp salt</li>
-          <li>1/4 cup olive oil</li>
-          <li>Fresh basil leaves</li>
+          <li>Cuban bread or French bread</li>
+          <li>Yellow mustard</li>
+          <li>Sliced pickles</li>
+          <li>Swiss cheese</li>
+          <li>Roasted pork</li>
+          <li>Sliced ham</li>
+          <li>Butter</li>
         </ul>
       </div>
 
       <div>
         <h3>Instructions</h3>
         <ol>
-          <li>Preheat the oven to 375°F.</li>
-          <li>Mix all ingredients in a bowl.</li>
-          <li>Heat a pan and sauté mixture.</li>
-          <li>Place in baking dish.</li>
-          <li>Bake for 20-25 minutes.</li>
-          <li>Let cool slightly before serving.</li>
+          <li>Slice the bread into sandwich-sized pieces.</li>
+          <li>Layer mustard, pickles, Swiss cheese, roasted pork, and ham onto one side of the bread.</li>
+          <li>Top with the other slice of bread.</li>
+          <li>Butter the outsides of the sandwich.</li>
+          <li>Press the sandwich in a panini press or skillet until golden and melty.</li>
         </ol>
       </div>
     </section>
