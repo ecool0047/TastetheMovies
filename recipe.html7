@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gnocchi | Taste The Movies</title>
+</head>
+<body>
+
+  <header>
+    <h1>Taste The Movies</h1>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <img src="images/placeholder.png" alt="Italian Potato Gnocchi with Butter & Sage from Luca" />
+      </div>
+      <div>
+        <h2>Italian Potato Gnocchi with Butter & Sage</h2>
+        <p><strong>Description:</strong></p>
+        <p>This classic Italian dish, made with tender gnocchi and a rich butter and sage sauce, is the perfect comfort food, inspired by family dinners in Portorosso.</p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>2 large russet potatoes</li>
+          <li>1 cup flour</li>
+          <li>1 egg</li>
+          <li>Butter</li>
+          <li>Fresh sage leaves</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Boil potatoes until tender, then peel and mash.</li>
+          <li>Mix the mashed potatoes with egg and flour to form a dough.</li>
+          <li>Roll the dough into ropes, then cut into small gnocchi pieces.</li>
+          <li>Boil the gnocchi in salted water until they float to the top.</li>
+          <li>In a pan, brown butter and crisp fresh sage leaves. Toss the gnocchi in the butter and sage.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
 
