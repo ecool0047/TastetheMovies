@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Recipe | Taste The Movies</title>
+  <title>Arepas con Queso | Taste The Movies</title>
 </head>
 <body>
 
@@ -14,13 +14,12 @@
   <main>
     <section>
       <div>
-        <img src="images/placeholder.png" alt="Food from movie" />
+        <img src="images/placeholder.png" alt="Arepas con Queso from Encanto" />
       </div>
       <div>
-        <h2>Recipe Name</h2>
+        <h2>Colombian Cheese-Stuffed Arepas</h2>
         <p><strong>Description:</strong></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Curabitur eu nunc non urna malesuada consequat.</p>
+        <p>Mirabel’s mom heals with these—emotionally and literally! A comforting and delicious dish from *Encanto*.</p>
       </div>
     </section>
 
@@ -28,24 +27,20 @@
       <div>
         <h3>Ingredients</h3>
         <ul>
-          <li>1 cup lorem ipsum</li>
-          <li>2 tbsp dolor sit amet</li>
-          <li>3 cloves of garlic</li>
-          <li>1 tsp salt</li>
-          <li>1/4 cup olive oil</li>
-          <li>Fresh basil leaves</li>
+          <li>2 cups masarepa (precooked cornmeal, like PAN)</li>
+          <li>1½ cups warm water</li>
+          <li>1 cup shredded mozzarella or queso blanco</li>
+          <li>Salt</li>
+          <li>Butter or oil for frying</li>
         </ul>
       </div>
 
       <div>
         <h3>Instructions</h3>
         <ol>
-          <li>Preheat the oven to 375°F.</li>
-          <li>Mix all ingredients in a bowl.</li>
-          <li>Heat a pan and sauté mixture.</li>
-          <li>Place in baking dish.</li>
-          <li>Bake for 20-25 minutes.</li>
-          <li>Let cool slightly before serving.</li>
+          <li>Mix the masarepa, warm water, and salt to form dough. Let it rest for 5 minutes.</li>
+          <li>Shape the dough into patties and stuff each with cheese inside.</li>
+          <li>Cook the patties on a greased skillet for 5-7 minutes per side until golden and the cheese is melty inside.</li>
         </ol>
       </div>
     </section>
