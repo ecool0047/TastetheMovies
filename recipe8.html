@@ -4,29 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ikura Donburi | Taste The Movies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body id="body-override">
 
-  <header>
-    <h1>Taste The Movies</h1>
-  </header>
-
-  <main>
-    <section>
-      <div>
-        <img src="images/placeholder.png" alt="Salmon Roe Rice Bowl from Ponyo" />
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Taste the Movies</a>
       </div>
-      <div>
-        <h2>Salmon Roe Rice Bowl with Egg and Green Onion</h2>
+      <ul class="nav navbar-nav">
+        <li><a href="movies.html">All Movies</a></li>
+        <li><a href="recipes.html">All Recipes</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="recipe-container">
+    <section class="recipe-header">
+      <div class="recipe-image">
+        <img src="images/rice bowl.jpg" alt="Salmon Roe Rice Bowl from Ponyo" />
+      </div>
+      <div class="recipe-details">
+        <h2 class="recipe-title"><strong>Salmon Roe Rice Bowl with Egg and Green Onion</strong></h2>
         <p><strong>Description:</strong></p>
-        <p>This comforting and simple dish, inspired by the movie *Ponyo*, combines the delicate flavors of salmon roe, scrambled egg, and fresh green onions atop warm rice.</p>
+        <p class="recipe-description">This comforting and simple dish, inspired by the movie <em>Ponyo</em>, combines the delicate flavors of salmon roe, scrambled egg, and fresh green onions atop warm rice.</p>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="recipe-body">
+      <div class="ingredients-section">
         <h3>Ingredients</h3>
-        <ul>
+        <ul class="ingredients-list">
           <li>Cooked white rice</li>
           <li>1 egg, lightly scrambled</li>
           <li>2 tbsp salmon roe (ikura)</li>
@@ -35,9 +49,9 @@
         </ul>
       </div>
 
-      <div>
+      <div class="instructions-section">
         <h3>Instructions</h3>
-        <ol>
+        <ol class="instructions-list">
           <li>Place hot rice in a bowl.</li>
           <li>Top with scrambled egg, salmon roe, and green onions.</li>
           <li>Drizzle with soy sauce to taste.</li>
@@ -46,9 +60,5 @@
     </section>
   </main>
 
-  <footer>
-  </footer>
-
 </body>
 </html>
-

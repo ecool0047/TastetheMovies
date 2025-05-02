@@ -4,29 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arepas con Queso | Taste The Movies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body id="body-override">
 
-  <header>
-    <h1>Taste The Movies</h1>
-  </header>
-
-  <main>
-    <section>
-      <div>
-        <img src="images/placeholder.png" alt="Arepas con Queso from Encanto" />
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Taste the Movies</a>
       </div>
-      <div>
-        <h2>Colombian Cheese-Stuffed Arepas</h2>
+      <ul class="nav navbar-nav">
+        <li><a href="movies.html">All Movies</a></li>
+        <li><a href="recipes.html">All Recipes</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="recipe-container">
+    <section class="recipe-header">
+      <div class="recipe-image">
+        <img src="images/Arepa.jpg" alt="Arepas con Queso from Encanto" />
+      </div>
+      <div class="recipe-details">
+        <h2 class="recipe-title"><strong>Colombian Cheese-Stuffed Arepas</strong></h2>
         <p><strong>Description:</strong></p>
-        <p>Mirabel’s mom heals with these—emotionally and literally! A comforting and delicious dish from *Encanto*.</p>
+        <p class="recipe-description">Mirabel's mom heals with these—emotionally and literally! A comforting and delicious dish from Colombia in the movie <em>Encanto</em>.</p>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="recipe-body">
+      <div class="ingredients-section">
         <h3>Ingredients</h3>
-        <ul>
+        <ul class="ingredients-list">
           <li>2 cups masarepa (precooked cornmeal, like PAN)</li>
           <li>1½ cups warm water</li>
           <li>1 cup shredded mozzarella or queso blanco</li>
@@ -35,9 +49,9 @@
         </ul>
       </div>
 
-      <div>
+      <div class="instructions-section">
         <h3>Instructions</h3>
-        <ol>
+        <ol class="instructions-list">
           <li>Mix the masarepa, warm water, and salt to form dough. Let it rest for 5 minutes.</li>
           <li>Shape the dough into patties and stuff each with cheese inside.</li>
           <li>Cook the patties on a greased skillet for 5-7 minutes per side until golden and the cheese is melty inside.</li>
@@ -45,9 +59,6 @@
       </div>
     </section>
   </main>
-
-  <footer>
-  </footer>
 
 </body>
 </html>

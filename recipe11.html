@@ -4,29 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hazelnut Soup | Taste The Movies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body id="body-override">
 
-  <header>
-    <h1>Taste The Movies</h1>
-  </header>
-
-  <main>
-    <section>
-      <div>
-        <img src="images/placeholder.png" alt="Hazelnut Soup from the movie Tangled" />
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Taste the Movies</a>
       </div>
-      <div>
-        <h2>Hazelnut Soup</h2>
+      <ul class="nav navbar-nav">
+        <li><a href="movies.html">All Movies</a></li>
+        <li><a href="recipes.html">All Recipes</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="recipe-container">
+    <section class="recipe-header">
+      <div class="recipe-image">
+        <img src="images/hazlenut.jpg" alt="Hazelnut Soup from the movie Tangled" />
+      </div>
+      <div class="recipe-details">
+        <h2 class="recipe-title"><strong>Hazelnut Soup</strong></h2>
         <p><strong>Description:</strong></p>
-        <p>A creamy and hearty vegetable soup with ground hazelnuts, based on medieval European peasant food, as seen in the movie <em>Tangled</em>.</p>
+        <p class="recipe-description">A creamy and hearty vegetable soup with ground hazelnuts, based on medieval European peasant food, as seen in the movie <em>Tangled</em>. <strong>Caution: Might contain magical blonde hair.</strong></p>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="recipe-body">
+      <div class="ingredients-section">
         <h3>Ingredients</h3>
-        <ul>
+        <ul class="ingredients-list">
           <li>2 carrots, chopped</li>
           <li>1 small onion, chopped</li>
           <li>1 potato, peeled and cubed</li>
@@ -39,9 +53,9 @@
         </ul>
       </div>
 
-      <div>
+      <div class="instructions-section">
         <h3>Instructions</h3>
-        <ol>
+        <ol class="instructions-list">
           <li>Sauté onions and carrots in olive oil until softened.</li>
           <li>Add potato and vegetable broth. Simmer until potatoes are soft.</li>
           <li>Stir in ground hazelnuts and simmer for 10 more minutes.</li>
@@ -51,9 +65,5 @@
     </section>
   </main>
 
-  <footer>
-  </footer>
-
 </body>
 </html>
-

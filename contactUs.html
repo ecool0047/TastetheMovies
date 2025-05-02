@@ -1,12 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>Taste the Movies</title>
+        <title>Contact Us | Taste the Movies</title>
         <meta http-equiv="Content-Type" content ="text/html; charset=utf-8" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="css/ctus.css" rel= "stylesheet" type="text/css" />
+        <script src="js/script.js" defer></script>
     </head>
     <body>
         <nav class="navbar navbar-inverse">
@@ -15,29 +16,36 @@
                   <a class="navbar-brand" href="index.html">Taste the Movies</a>
                 </div>
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="contactus.html">Contact Us</a></li>
-                  <li><a href="#">All Recipes</a></li>
-                  <li><a href="#">All Movies</a></li>
+                  <li><a href="movies.html">All Movies</a></li>
+                  <li><a href="recipes.html">All Recipes</a></li>
                   <li><a href="aboutus.html">About Us</a></li>
+                  <li class="active"><a href="contactus.html">Contact Us</a></li>
                 </ul>
-
+                
               </div>
             </nav>
-        <div id = "header"> 
-            <img id="banner" src="images/Headerbanner.png" alt="banner"/>
-        </div>
-        <form>
+            <h1 class="moviesH1"><strong>Contact Us!</strong></h1>
+            <h4 class="moviesH4">If you have any suggestions of some recipes you really think should be on our website, put them here.</h4>
+        <div id = links>
+          <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Username</label>
-              <input type="username" class="form-control" id="exampleInputusername" aria-describedby="username" placeholder="Enter username">
-              <small id="emailHelp" class="form-text text-muted">We'll store your username and credit you if your recipe is used.</small>
+              <label for="exampleInputusername">Username</label>
+              <input type="text" class="form-control" id="exampleInputusername" aria-describedby="username" placeholder="Enter username">
+              <small id="emailHelp" class="form-text text-muted">
+                We'll store your username and credit you if your recipe is used. (Any unserious usernames will not be credited if we do use your idea)
+              </small>
             </div>
+            
             <div class="form-group">
               <label for="exampleInputRecipe">Recipe Idea</label>
-              <input type="recipe" class="form-control" id="exampleInputRecipe" placeholder="Write your recipe here">
+              <input type="text" class="form-control" id="exampleInputRecipe" placeholder="Write your recipe here (Must be 20 characters in length)">
+              <small id="emailHelp" class="form-text text-muted">
+                Please put it in actual suggestions, any spam will be deleted and ignored.
+              </small>
             </div>
-                      <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+                      <button id="notbutton" type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
           </form>
-        <a href="mailto:tastethemovies@gmail.com" type="button" class="btn btn-info btn-lg btn-block">Contact Us</button>
-    </body>
+          <a href="mailto:tastethemovies@gmail.com" type="button" class="btn btn-info btn-lg btn-block" id="emailBtn">Contact Us</a>
+        </div>
+        </body>
 </html>

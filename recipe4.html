@@ -3,56 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Panda Bao Buns | Taste The Movies</title>
+  <title>Turning Red Dumplings | Taste The Movies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body id="body-override">
 
-  <header>
-    <h1>Taste The Movies</h1>
-  </header>
-
-  <main>
-    <section>
-      <div>
-        <img src="images/placeholder.png" alt="Panda Bao Buns from Turning Red" />
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Taste the Movies</a>
       </div>
-      <div>
-        <h2>Steamed Pork or Veggie Buns</h2>
+      <ul class="nav navbar-nav">
+        <li><a href="movies.html">All Movies</a></li>
+        <li><a href="recipes.html">All Recipes</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="recipe-container">
+    <section class="recipe-header">
+      <div class="recipe-image">
+        <img src="images/dumpling.jpg" alt="Dumplings from Turning Red" />
+      </div>
+      <div class="recipe-details">
+        <h2 class="recipe-title"><strong>Boiled Dumplings</strong></h2>
         <p><strong>Description:</strong></p>
-        <p>Inspired by Mei's mom's cooking and Pixar’s short *Bao*. Soft, steamed buns filled with either pork or mushrooms for a savory treat.</p>
+        <p class="recipe-description">Inspired by Mei's mom's cooking and Pixar's <em>Turning Red</em>. Soft, boiled dumplings filled with pork for a savory treat.</p>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="recipe-body">
+      <div class="ingredients-section">
         <h3>Ingredients</h3>
-        <ul>
+        <ul class="ingredients-list">
           <li><strong>For dough:</strong> 2 cups flour</li>
           <li>1 tbsp sugar</li>
           <li>1 tsp yeast</li>
           <li>¾ cup warm water</li>
-          <li><strong>For filling:</strong> ground pork or mushrooms</li>
+          <li><strong>For filling:</strong> ground pork</li>
           <li>1 garlic clove, minced</li>
           <li>2 tbsp soy sauce</li>
           <li>1 tsp sesame oil</li>
         </ul>
       </div>
 
-      <div>
+      <div class="instructions-section">
         <h3>Instructions</h3>
-        <ol>
+        <ol class="instructions-list">
           <li>Mix dough ingredients and let the dough rise for 1 hour.</li>
           <li>Prepare filling by cooking pork or mushrooms with garlic, soy sauce, and sesame oil.</li>
           <li>Roll dough into small balls, flatten each ball, add filling, and pinch to close.</li>
-          <li>Steam the buns in a bamboo steamer for 15–20 minutes until fluffy.</li>
+          <li>Steam the buns in a bamboo steamer for 15-20 minutes until fluffy.</li>
         </ol>
       </div>
     </section>
   </main>
 
-  <footer>
-  </footer>
-
 </body>
 </html>
-

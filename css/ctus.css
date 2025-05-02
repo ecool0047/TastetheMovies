@@ -1,0 +1,23 @@
+#links{
+    padding-left:1%;
+    padding-right:1%;
+}
+#notbutton{
+    margin-bottom:1%;
+}
+
+.moviesH1{
+    text-align: center;
+    margin: 10px 0;
+    color:black;
+  }
+  
+.moviesH4{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.navbar{
+    border-radius: 0px;
+}
+

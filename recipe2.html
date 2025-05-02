@@ -4,29 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meat Pie | Taste The Movies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body id="body-override">
 
-  <header>
-    <h1>Taste The Movies</h1>
-  </header>
-
-  <main>
-    <section>
-      <div>
-        <img src="images/placeholder.png" alt="Meat Pie from Sweeney Todd" />
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Taste the Movies</a>
       </div>
-      <div>
-        <h2>English Meat Pie</h2>
+      <ul class="nav navbar-nav">
+        <li><a href="movies.html">All Movies</a></li>
+        <li><a href="recipes.html">All Recipes</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="recipe-container">
+    <section class="recipe-header">
+      <div class="recipe-image">
+        <img src="images/meat pie.jpg" alt="Meat Pie from Sweeney Todd" />
+      </div>
+      <div class="recipe-details">
+        <h2 class="recipe-title"><strong>English Meat Pie</strong></h2>
         <p><strong>Description:</strong></p>
-        <p>A classic English meat pie featured in *Sweeney Todd*. Let’s assume yours won’t include any barbers!</p>
+        <p class="recipe-description">A classic English meat pie featured in <em>Sweeney Todd</em>. Let's assume yours won't include any barbers!</p>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="recipe-body">
+      <div class="ingredients-section">
         <h3>Ingredients</h3>
-        <ul>
+        <ul class="ingredients-list">
           <li>1 lb ground beef or lamb</li>
           <li>1 onion, diced</li>
           <li>2 carrots, diced</li>
@@ -37,9 +51,9 @@
         </ul>
       </div>
 
-      <div>
+      <div class="instructions-section">
         <h3>Instructions</h3>
-        <ol>
+        <ol class="instructions-list">
           <li>Brown the ground meat in a pan.</li>
           <li>Add diced onions, carrots, and potatoes. Cook until vegetables soften.</li>
           <li>Pour in the beef broth, simmer until the mixture thickens.</li>
@@ -50,9 +64,6 @@
       </div>
     </section>
   </main>
-
-  <footer>
-  </footer>
 
 </body>
 </html>

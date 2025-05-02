@@ -4,29 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Butterbeer | Taste The Movies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body id="body-override">
 
-  <header>
-    <h1>Taste The Movies</h1>
-  </header>
-
-  <main>
-    <section>
-      <div>
-        <img src="images/placeholder.png" alt="Butterbeer from Harry Potter" />
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Taste the Movies</a>
       </div>
-      <div>
-        <h2>Creamy Butterscotch Soda Drink (Non-Alcoholic)</h2>
+      <ul class="nav navbar-nav">
+        <li><a href="movies.html">All Movies</a></li>
+        <li><a href="recipes.html">All Recipes</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="recipe-container">
+    <section class="recipe-header">
+      <div class="recipe-image">
+        <img src="images/Butter-beer.jpg" alt="Butterbeer from Harry Potter" />
+      </div>
+      <div class="recipe-details">
+        <h2 class="recipe-title"><strong>Creamy Butterscotch Soda Drink (Non-Alcoholic)</strong></h2>
         <p><strong>Description:</strong></p>
-        <p>This deliciously sweet drink is inspired by the magical *Butterbeer* from the *Harry Potter* series. It’s a cozy and creamy treat that can be served warm or cold, perfect for evoking the wizarding world.</p>
+        <p class="recipe-description">This deliciously sweet drink is inspired by the magical <em>Butterbeer</em> from the <em>Harry Potter</em> series. It's a cozy and creamy treat that can be served warm or cold, perfect for evoking the wizarding world.</p>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="recipe-body">
+      <div class="ingredients-section">
         <h3>Ingredients</h3>
-        <ul>
+        <ul class="ingredients-list">
           <li>1 cup cream soda</li>
           <li>1 tbsp butterscotch syrup</li>
           <li>2 tbsp whipped cream</li>
@@ -34,9 +48,9 @@
         </ul>
       </div>
 
-      <div>
+      <div class="instructions-section">
         <h3>Instructions</h3>
-        <ol>
+        <ol class="instructions-list">
           <li>Stir butterscotch syrup into cream soda.</li>
           <li>Top with whipped cream.</li>
           <li>Heat gently for the warm version, or serve over ice for a cold version.</li>
@@ -44,9 +58,6 @@
       </div>
     </section>
   </main>
-
-  <footer>
-  </footer>
 
 </body>
 </html>

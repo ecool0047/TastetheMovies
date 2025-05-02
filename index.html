@@ -1,87 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taste the Movies</title>
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <title>Home Page | Taste the Movies</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <script src="js/script.js" defer></script>
   </head>
-  
+
   <body>
-    <header>
-      <h1>Taste The Movies</h1> <!--put the icon here when possible-->
-    </header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Taste the Movies</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="movies.html">All Movies</a></li>
+          <li><a href="recipes.html">All Recipes</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+      <h1 class="moviesH1"><strong>Taste The Movies</strong></h1>
+      <h4 class="moviesH4">Welcome to our website! Ready to get a taste of your favorite movies?</h4>
     
     
     <div class="main">
-     <div class="column">
-       <div class="column-header">
-         <h2>Movies</h2>
-         <select>
-           <option disabled >Filter</option>
-           <option>Action</option>
-           <option>Drama</option>
-           <option>Romance</option>
-           <option>Comedy</option>
-           <option>Thiller</option>
-         </select>
-       </div>
-       <div class="content-scroll">
-         <div class="item">
-           <img src="images/placeholder.png" alt="Movie 1">
-           <p>Movie 1</p>
-         </div>
-         <div class="item">
-           <img src="images/placeholder.png" alt="Movie 2">
-           <p>Movie 2</p>
-         </div>
-         <div class="item">
-           <img src="images/placeholder.png" alt="Movie 3">
-           <p>Movie 3</p>
-         </div>
-         <div class="item">
-           <img src="images/placeholder.png" alt="Movie 4">
-           <p>Movie 4</p>
-         </div>
-       </div>
-     </div>
+      <div class="column" id="movieColumn">
+        <div class="column-header">
+          <h2 class="moviesH1"><strong>Our Top Picks</strong></h2>
+        </div>
+        <div class="content-scroll">
+          <div class="moviesDiv">
+            <img src="images/TP&F.jpg" alt="The Princess and the Frog">
+            <h4 class="indexAnchorM"><a class="moviesAnchor" href="movie5.html"><strong><em>The Princess and the Frog</em> (2009)</strong></a></h4>
+          </div>
+          <div class="moviesDiv">
+            <img src="images/Ponyo.jpg" alt="Ponyo">
+            <h4 class="indexAnchorM"><a class="moviesAnchor" href="movie8.html"><strong><em>Ponyo</em> (2008)</strong></a></h4>
+          </div>
+          <div class="moviesDiv">
+            <img src="images/Tangled.jpg" alt="Tangled">
+            <h4 class="indexAnchorM"><a class="moviesAnchor" href="movie11.html"><strong><em>Tangled</em> (2010)</strong></a></h4>
+          </div>
+          <div class="moviesDiv">
+            <img src="images/Ratatoiulle1.jpg" alt="Ratatouille">
+            <h4 class="indexAnchorM"><a class="moviesAnchor" href="movie1.html"><strong><em>Ratatouille</em> (2007)</strong></a></h4>
+          </div>
+          <div class="moviesDiv">
+            <img src="images/Matilda.jpg" alt="Matilda">
+            <h4 class="indexAnchorM"><a class="moviesAnchor" href="movie12.html"><strong><em>Matilda</em> (1996)</strong></a></h4>
+          </div>
+        </div>
+      </div>
+      
     
-     <div class="column">
+     <div class="column" id="recipeColumn">
        <div class="column-header">
-         <h2>General Recipes</h2>
-         <select>
-           <option disabled>Filter</option>
-           <option>Snack</option>
-           <option>Appetizer</option>
-           <option>Main Course</option>
-           <option>Dessert</option>
-         </select>
+         <h2 class="moviesH1"><strong>Our Favorites</strong></h2>
        </div>
        <div class="content-scroll">
-         <div class="item">
-           <img src="images/placeholder.png" alt="Food 1">
-           <p>Recipe 1</p>
-         </div>
-         <div class="item">
-           <img src="images/placeholder.png" alt="Food 2">
-           <p>Recipe 2</p>
-         </div>
-         <div class="item">
-           <img src="images/placeholder.png" alt="Food 3">
-           <p>Recipe 3</p>
-         </div>
-         <div class="item">
-           <img src="images/placeholder.png" alt="Food 4">
-           <p>Recipe 4</p>
-         </div>
+          <div class="recipesDiv">
+            <img src="images/Arepa.jpg" alt="Arepas con Queso from Encanto">
+            <h4 id="arepaAnchor"><a class="recipesAnchor" href="recipe3.html"><strong>Colombian Cheese-Stuffed Arepas</strong></a></h4>
+          </div>
+          <div class="recipesDiv">
+            <img src="images/beignets.jpg" alt="Beignets from the movie The Princess and the Frog">
+            <h4 class="indexAnchorR"><a class="recipesAnchor" href="recipe12.html"><strong>Beignets</strong></a></h4>
+          </div>
+          <div class="recipesDiv">
+            <img src="images/Butter-beer.jpg" alt="Butterbeer from Harry Potter">
+            <h4 class="indexAnchorR"><a class="recipesAnchor" href="recipe9.html"><strong>Creamy Butterscotch Soda Drink (Non-Alcoholic)</strong></a></h4>
+          </div>
+          <div class="recipesDiv">
+            <img src="images/choco-cake.jpg" alt="Chocolate Cake from the movie Matilda">
+            <h4 class="indexAnchorR"><a class="recipesAnchor" href="recipe13.html"><strong>Decadent Fudge Chocolate Cake</strong></a></h4>
+          </div>
+          <div class="recipesDiv">
+            <img src="images/rice bowl.jpg" alt="Salmon Roe Rice Bowl from Ponyo">
+            <h4 id="riceBowlAnchor"><a class="recipesAnchor" href="recipe8.html"><strong>Salmon Roe Rice Bowl with Egg and Green Onion</strong></a></h4>
+          </div>
        </div>
      </div>
-   </div>
-   
-   <div id = footer>
    </div>
   </body>
 </html>   
